@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638769129085745768
-    m_Hash: 2871464384
+      ticks: 638770951923523298
+    m_Hash: 1469882766
   m_LockFileStatus:
     m_FilePath: E:/Unity Projects/RepoGit/TowerDefense/Tower-Defense-game/TowerDefense/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638769129131020917
-    m_Hash: 439816876
+      ticks: 638770951923724339
+    m_Hash: 3072211590
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
@@ -544,12 +544,12 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 1.0.0
     minimumUnityVersion: 6000.0.0a1
-- packageId: com.unity.timeline@1.8.7
+- packageId: com.unity.timeline@1.8.8
   testable: 0
   isDirectDependency: 1
-  version: 1.8.7
+  version: 1.8.8
   source: 1
-  resolvedPath: E:\Unity Projects\RepoGit\TowerDefense\Tower-Defense-game\TowerDefense\Library\PackageCache\com.unity.timeline@c58b4ee65782
+  resolvedPath: E:\Unity Projects\RepoGit\TowerDefense\Tower-Defense-game\TowerDefense\Library\PackageCache\com.unity.timeline@fa3a0bab2b90
   assetPath: Packages/com.unity.timeline
   name: com.unity.timeline
   displayName: Timeline
@@ -558,7 +558,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: assets
+  type: 
   description: Use Unity Timeline to create cinematic content, game-play sequences,
     audio sequences, and complex particle effects.
   errors: []
@@ -693,13 +693,13 @@ m_ResolvedPackages:
   entitlements:
     licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638524833900000000
+  datePublishedTicks: 638739338167810000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.timeline@1.8/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.timeline.git
-    revision: d6432ca638481c3d0e4c01f87f9cdbe3c4b1d529
+    revision: b01f8fc6766a468476830dec57fdf694f16104e6
     path: 
   unityLifecycle:
     version: 1.8.7
@@ -712,24 +712,22 @@ m_ResolvedPackages:
   git:
     hash: 
     revision: 
-  upmReserved: '{"changelog":"### Added\n\n- Released ronl-workflow-custom-marker.md
-    Added a new workflow to the Timeline Workflows documentation:\n- Released ronl-workflow-custom-marker.md
-    The `Create a custom Notes marker` workflow demonstrates how to create a custom
-    marker for adding notes to Timeline instances. This workflow also demonstrates
-    how to change the default appearance of a custom marker with scripting and a
-    Unity Style Sheet (USS).\n\n### Fixed\n\n- Fixed bug where using , and . (<>)
-    to step frames in the Animation Window while the Timeline Window was linked would
-    sometimes not work. [IN-56667](https://unity3d.atlassian.net/servicedesk/customer/portal/2/IN-56667)\n-
-    When the Timeline and Animation windows are linked and the Timeline Window is
-    active, moving the playhead in the Timeline Window will cause the animation window
-    to repaint immediately."}'
+  upmReserved: '{"changelog":"### Fixed\n\n- Fixed bug where the first property,
+    when it is a collection of objects, of a TrackAsset would not be properly displayed
+    in the inspector.\n- TimelineAsset.EditorSettings.SetStandardFrameRate would
+    incorrectly throw an ArgumentException if given a valid StandardFrameRates, this
+    has been corrected.\n- Clip blends will now be computed when using the API to
+    add clips to tracks - IN-66759\n- Improved performance when evaluating Timeline
+    Playables with a large number of clip based Animation Tracks (TB-259)\n- Updated
+    the Gameplay Sequence sample to show materials when using the Universal and HD
+    Render Pipelines."}'
   assetStore:
     productId: 
-  fingerprint: c58b4ee65782ad38338e29f7ee67787cb6998f04
+  fingerprint: fa3a0bab2b909389f8e6c20d5ff275c9e15ae0a2
   editorCompatibility:
     compatibilityLevel: 0
     minimumPackageVersion: 1.8.7
-    minimumUnityVersion: 2019.3.0a1
+    minimumUnityVersion: 2021.3.0a1
 - packageId: com.unity.ugui@2.0.0
   testable: 0
   isDirectDependency: 1
@@ -822,12 +820,12 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 2.0.0
     minimumUnityVersion: 2019.2.0a1
-- packageId: com.unity.visualscripting@1.9.5
+- packageId: com.unity.visualscripting@1.9.6
   testable: 0
   isDirectDependency: 1
-  version: 1.9.5
+  version: 1.9.6
   source: 1
-  resolvedPath: E:\Unity Projects\RepoGit\TowerDefense\Tower-Defense-game\TowerDefense\Library\PackageCache\com.unity.visualscripting@1b53f46e931b
+  resolvedPath: E:\Unity Projects\RepoGit\TowerDefense\Tower-Defense-game\TowerDefense\Library\PackageCache\com.unity.visualscripting@7dcdc439b230
   assetPath: Packages/com.unity.visualscripting
   name: com.unity.visualscripting
   displayName: Visual Scripting
@@ -874,9 +872,11 @@ m_ResolvedPackages:
     - 1.9.2
     - 1.9.4
     - 1.9.5
+    - 1.9.6
     compatible:
     - 1.9.5
-    recommended: 1.9.5
+    - 1.9.6
+    recommended: 1.9.6
     deprecated:
     - 1.8.0-pre.1
   dependencies:
@@ -906,13 +906,13 @@ m_ResolvedPackages:
   entitlements:
     licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638659692270900000
+  datePublishedTicks: 638769546699650000
   documentationUrl: 
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.visualscripting.git
-    revision: 3621ef0207747a605f195118ba99d1a8bdb19433
+    revision: d24c56a75889cb6fe0046a9472368815d56d6bc7
     path: 
   unityLifecycle:
     version: 1.9.5
@@ -925,16 +925,26 @@ m_ResolvedPackages:
   git:
     hash: 
     revision: 
-  upmReserved: '{"changelog":"### Fixed\n- Fixed \"NullReferenceException\" error
-    when returning to the State Graph from the Script Graph. [UVSB-1905](https://issuetracker.unity3d.com/product/unity/issues/guid/UVSB-1905)\n-
-    Fixed compilation error when a graph contains a reference to a method with an
-    \"in\" parameter. [UVSB-2544](https://issuetracker.unity3d.com/product/unity/issues/guid/UVSB-2487)\n-
-    Added missing truncate function to Formula node [UVSB-2526](https://issuetracker.unity3d.com/product/unity/issues/guid/UVSB-2525)\n-
-    Fixed an error when creating a Script Graph asset in an empty project\n\n###
-    Changed\n- Updated deprecated EditorAnalytics APIs to new ones"}'
+  upmReserved: '{"changelog":"### Fixed\n- Fixed the output path for Property Providers
+    generated from User Editor code. [UVSB-2550](https://issuetracker.unity3d.com/product/unity/issues/guid/UVSB-2550)\n-
+    Fixed a minor spelling issue in the Project Settings section [UVSB-2523](https://issuetracker.unity3d.com/product/unity/issues/guid/UVSB-2523)\n-
+    Fixed an unexpected MissingComponentException thrown when using GetOrAddComponent
+    [UVSB-2575](https://jira.unity3d.com/browse/UVSB-2575)\n- Fixed scenes not reopening
+    after a Build when more than one Scene was opened and Visual Scripting with variables
+    is used. [UVSB-2561](https://jira.unity3d.com/browse/UVSB-2561)\n- Fixed values
+    of LocalizedAudioClip type being shown as None after selecting another game object
+    and returning back [UVSB-2528](https://jira.unity3d.com/browse/UVSB-2528)\n-
+    Fixed a compilation issue that happened when a project had another version of
+    NCalc already installed. [UVSB-2583](https://jira.unity3d.com/browse/UVSB-2583)\n-
+    Fixed an ''AudioMixerController'' is inaccessible due to its protection level''
+    error thrown when generating the AotStubs. [UVSB-2577](https://jira.unity3d.com/browse/UVSB-2577)\n-
+    Fixed compilation error when AotStubs references Unity.NetworkManager.__rpc_func_table
+    and Unity.NetworkManager.__rpc_name_table fields [UVSB-2563](https://issuetracker.unity3d.com/product/unity/issues/guid/UVSB-2563)\n\n###
+    Changed\n- Improved the warning message when a library fails to load while scanning
+    for Editor assemblies."}'
   assetStore:
     productId: 
-  fingerprint: 1b53f46e931bea668e53f1feb0ac9138170c9455
+  fingerprint: 7dcdc439b230145cec4202cd6ebad135736e0c14
   editorCompatibility:
     compatibilityLevel: 0
     minimumPackageVersion: 1.9.5
